@@ -1,8 +1,8 @@
 import {Routes, Route, Navigate} from 'react-router-dom';
 import Login from '../pages/Login';
 import Users from '../pages/Users/Users';
-import Clients from '../pages/Clients';
-import Tasks from '../pages/Tasks';
+import Clients from '../pages/Clients/Clients';
+import Tasks from '../pages/Tasks/Tasks';
 import ProtectedRoute from '../components/ProtectedRoute';
 
 export default function AppRoutes() {
